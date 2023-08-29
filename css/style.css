@@ -1,63 +1,76 @@
 /* GOOGle Font CDN */
-  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-  /* 
+/* 
 font-family: 'Roboto', sans-serif; */
 
-  /* GOOGLE Font CDN End */
+/* GOOGLE Font CDN End */
 
-  /* Default CSS */
-  *{
+/* Default CSS */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  .container{
+.container {
     max-width: 1170px;
     margin: auto;
-  }
-body,h1,h2,h3,h4,h5,h6,p,span{
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
     font-family: 'Lato', sans-serif;
 }
 
-  /* Header section Start */
-  header{
+/* Header section Start */
+header {
     background: rgba(229, 84, 115, 0.10);
     height: 500px;
-  }
+}
 
-  .header-container{
+.header-container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-.header-left-content{
+.header-left-content {
     flex-basis: 48%;
     margin: 1%;
 }
-.header-left-content h1{
+
+.header-left-content h1 {
     font-weight: 800;
     font-size: 50px;
     margin-bottom: 30px;
 }
-.header-left-content p{
+
+.header-left-content p {
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 30px;
 }
-.header-right-content{
+
+.header-right-content {
     flex-basis: 48%;
     margin: 1%;
 }
-  .header-right-content img{
+
+.header-right-content img {
     width: 380px;
     margin-left: 200px;
     margin-top: 10px;
-  }
+}
 
-  .btn{
+.btn {
     display: inline-block;
     padding: 10px 20px;
     color: white;
@@ -67,207 +80,198 @@ body,h1,h2,h3,h4,h5,h6,p,span{
     font-weight: 600;
     font-size: 20px;
     cursor: pointer;
-  }
+}
 
-  /* Feature Section Style */
-
-  .feature-section{
-    margin-top: 50px;
-    padding: 100px 0px;
-  }
-  .feature-title{
-   width: 480px;
-   margin: auto;
-  }
-  .feature-title h3{
+/* Feature Section Style */
+.feature-section{
+    padding: 60px 0px;
+}
+.feature-heading{
     text-align: center;
-    margin-bottom: 15px;
-    font-weight: 800;
-    font-size: 30px;
-  }
-  .feature-title p{
-    font-size: 18px ;
-    font-weight: 400;
-  }
+}
 
-  .feature-items{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 85px;
-    height: 300px;
-  }
-  */
-
-  .item1 img{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-    width: 300px;
-    padding: 20px;
-    margin-bottom: 10px;
-  }
-  .item1 p{
-    text-align: center;
-    text-decoration: underline;
-  }
-  .item2 img{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
-margin-bottom: 10px;
-  }
-  .item2 p{
-    text-align: center;
-    text-decoration: underline;
-  }
-  .item3 img{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-width: 280px;
-    padding: 20px;
-    margin-bottom: 10px;
-  }
-  .item3 p{
-    text-align: center;
-    text-decoration: underline;
-  }
-
-  /* Delivery SEctions  */
-  .delivery-section{
-    padding: 50px 0px;
-  }
-  .deliver-secction-details{
-     padding: 40px;
-     border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-  }
-  .delivery-information{
+.feature-imgs{
     display: flex;
     justify-content: space-evenly;
-  }
+    align-items: center;
+}
 
-  .delivery-details{
-    text-align: center;
-  }
-  .delivery-img{
-    margin: 10px 0px;
-  }
+.feature-img img{
+    /* width: 300px; */
+    margin-top: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 20px;
+    height: 300px;
+}
+.img2{
+    background: rgba(5, 151, 160, 0.15) !important;
+}
+.img3{
+    background: rgba(71, 125, 17, 0.15) !important;
+}
 
-  /* HOT Sell SEctions  */
-  .hot-sell-section{
+/* Delivery SEctions  */
+.delivery-section {
+    padding: 50px 0px;
+}
+
+.deliver-secction-details {
+    padding: 40px;
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-margin-top: 100px;
-padding: 90px 0px;
-  }
-  .sell-container{
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.delivery-information {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.delivery-details {
+    text-align: center;
+}
+
+.delivery-img {
+    margin: 10px 0px;
+}
+
+/* HOT Sell SEctions  */
+.hot-sell-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+    padding: 90px 0px;
+}
+
+.sell-container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .sell-left-content{
+}
+
+.sell-left-content {
     flex-basis: 48%;
     text-align: center;
-   
-  }
-  .sell-left-content span{
+
+}
+
+.sell-left-content span {
     color: #E55473;
-  }
-  .sell-left-content h2{
+}
+
+.sell-left-content h2 {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 15px;
-  }
-  .sell-left-content p{
+}
+
+.sell-left-content p {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 15px;
-  }
-  .sell-right-content{
-    flex-basis: 48%;
-    
-  }
+}
 
-  /* Instagram Secction */
-  .instagram-section{
+.sell-right-content {
+    flex-basis: 48%;
+
+}
+
+/* Instagram Secction */
+.instagram-section {
     padding: 100px 0px;
-  }
-  .instagram-heding{
+}
+
+.instagram-heding {
     width: 500px;
     margin: auto;
     text-align: center;
     margin-bottom: 50px;
-  }
-  .instagram-heding h1{
+}
+
+.instagram-heding h1 {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 15px;
-  }
-  .instagram-heding p{
+}
+
+.instagram-heding p {
     font-size: 18px;
     font-weight: 400;
-  }
-  .instagram-img-container{
+}
+
+.instagram-img-container {
     display: flex;
     justify-content: space-between;
-  }
-  .instagram-img img{
-    width: 280px;
-  }
+}
 
-  /* Subscribe Section */
-  .subscribe-section-container{
+.instagram-img img {
+    width: 280px;
+}
+
+/* Subscribe Section */
+.subscribe-section-container {
     padding: 50px 0px;
-  }
-  .subscribe-section{
+}
+
+.subscribe-section {
     padding: 100px 0px;
-    background: url("/Flower\ Asset/Rectangle 9.png") no-repeat;
+    background: url("/Flower Asset/Rectangle 9.png") no-repeat;
     border-radius: 8px;
-  }
-.subscribe-contents{
+}
+
+.subscribe-contents {
     text-align: center;
 }
-.subscribe-heading h1{
+
+.subscribe-heading h1 {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 20px;
 }
-.subscribe-heading p{
+
+.subscribe-heading p {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 20px;
 }
-.email-input{
+
+.email-input {
     padding: 15px;
     width: 550px;
     border-radius: 8px;
-background: #FFF;
-border: none;
+    background: #FFF;
+    border: none;
 }
 
 /* Footer Section */
-.footer-section{
+.footer-section {
     padding: 80px 0px;
     background: #111010;
 }
-.footer-content{
+
+.footer-content {
     text-align: center;
     color: white;
-    
+
 }
-.footer-content h1{
+
+.footer-content h1 {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 10px;
 }
-.footer-content p{
+
+.footer-content p {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 10px;
 }
-.footer-content span{
+
+.footer-content span {
     color: #E55473;
 }
-.footer-content h6{
+
+.footer-content h6 {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     margin-top: 50px;
