@@ -126,3 +126,21 @@ width: 280px;
     text-align: center;
     text-decoration: underline;
   }
+
+  /* Delivery SEctions  */
+  .deliver-secction{
+     padding: 50px;
+     border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+  }
+  .delivery-information{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .delivery-details{
+    text-align: center;
+  }
+  .delivery-img{
+    margin: 10px 0px;
+  }
