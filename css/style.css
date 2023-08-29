@@ -128,8 +128,11 @@ width: 280px;
   }
 
   /* Delivery SEctions  */
-  .deliver-secction{
-     padding: 50px;
+  .delivery-section{
+    padding: 50px 0px;
+  }
+  .deliver-secction-details{
+     padding: 40px;
      border-radius: 8px;
 background: rgba(39, 39, 39, 0.05);
   }
@@ -143,4 +146,39 @@ background: rgba(39, 39, 39, 0.05);
   }
   .delivery-img{
     margin: 10px 0px;
+  }
+
+  /* HOT Sell SEctions  */
+  .hot-sell-section{
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 100px;
+padding: 90px 0px;
+  }
+  .sell-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sell-left-content{
+    flex-basis: 48%;
+    text-align: center;
+   
+  }
+  .sell-left-content span{
+    color: #E55473;
+  }
+  .sell-left-content h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  .sell-left-content p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .sell-right-content{
+    flex-basis: 48%;
+    
   }
