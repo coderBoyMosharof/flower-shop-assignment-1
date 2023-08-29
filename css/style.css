@@ -84,12 +84,23 @@ header {
 
 /* Feature Section Style */
 .feature-section{
-    padding: 60px 0px;
+    padding: 90px 0px;
 }
 .feature-heading{
     text-align: center;
+    width: 500px;
+    margin: auto;
 }
 
+.feature-heading h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.feature-heading p{
+    font-size: 18px;
+    font-weight: 400;
+}
 .feature-imgs{
     display: flex;
     justify-content: space-evenly;
