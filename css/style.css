@@ -67,3 +67,62 @@ body,h1,h2,h3,h4,h5,h6,p,span{
     font-weight: 600;
     font-size: 20px;
   }
+
+  /* Feature Section Style */
+
+  .feature-section{
+    margin-top: 50px;
+    padding: 100px 0px;
+  }
+  .feature-title{
+   width: 480px;
+   margin: auto;
+  }
+  .feature-title h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 30px;
+  }
+  .feature-title p{
+    font-size: 18px ;
+    font-weight: 400;
+  }
+
+  .feature-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 85px;
+  }
+  .item1 img{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  .item1 p{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .item2 img{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+margin-bottom: 10px;
+  }
+  .item2 p{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .item3 img{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 280px;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  .item3 p{
+    text-align: center;
+    text-decoration: underline;
+  }
