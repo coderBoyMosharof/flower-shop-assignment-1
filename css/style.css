@@ -222,7 +222,7 @@ header {
 /* Subscribe Section */
 .subscribe-section-container {
     padding: 80px 0px;
-    background: url("/Flower Asset/Rectangle 9.png") no-repeat;
+    background: url("../Flower Asset/Rectangle 9.png") no-repeat;
     border-radius: 8px;
 }
 
