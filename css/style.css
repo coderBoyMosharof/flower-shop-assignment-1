@@ -66,6 +66,7 @@ body,h1,h2,h3,h4,h5,h6,p,span{
     border: none;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
   }
 
   /* Feature Section Style */
@@ -200,3 +201,33 @@ padding: 90px 0px;
   .instagram-img img{
     width: 280px;
   }
+
+  /* Subscribe Section */
+  .subscribe-section-container{
+    padding: 50px 0px;
+  }
+  .subscribe-section{
+    padding: 100px 0px;
+    background: url("/Flower\ Asset/Rectangle 9.png") no-repeat;
+    border-radius: 8px;
+  }
+.subscribe-contents{
+    text-align: center;
+}
+.subscribe-heading h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.subscribe-heading p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-input{
+    padding: 15px;
+    width: 550px;
+    border-radius: 8px;
+background: #FFF;
+border: none;
+}
