@@ -210,14 +210,12 @@ header {
 
 /* Subscribe Section */
 .subscribe-section-container {
-    padding: 50px 0px;
-}
-
-.subscribe-section {
-    padding: 100px 0px;
+    padding: 80px 0px;
     background: url("/Flower Asset/Rectangle 9.png") no-repeat;
     border-radius: 8px;
 }
+
+
 
 .subscribe-contents {
     text-align: center;
@@ -247,6 +245,7 @@ header {
 .footer-section {
     padding: 80px 0px;
     background: #111010;
+    margin-top: 80px;
 }
 
 .footer-content {
